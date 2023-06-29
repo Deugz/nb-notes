@@ -3,7 +3,22 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: Notes/Planet_formation
-- file: Notes/Amorphous_ice
+parts:
+  - caption: ""
+    chapters:
+    - url: https://deugz.github.io/sp-Science_Journey/build/html/index.html
+      title: "🏠 Home"
+  - caption: Background
+    chapters:
+    - file: Astronomy/Astronomy_Main
+      sections:
+      - url: https://deugz.github.io/nb-museum/build/html/intro.html
+        title: "Planet Formation"
+      - url: https://deugz.github.io/nb-phd/build/html/intro.html
+        title: "Amorphous Ices"
+    - file: Astronomy/Astrochemistry
+    - file: Astronomy/Cosmochemistry
+  - caption: Methods
+    chapters:
+    - file: Methods/Methods_Main
 

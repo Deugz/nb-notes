@@ -44,7 +44,7 @@ html:
     hypothesis              : true
     utterances              : 
       repo: "https://github.com/Deugz/nb-notes"
-  announcement              : "Current Version: May 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong>  ⚠"
+  announcement              : "⚠ in Development ⚠"
 
 
 sphinx:
@@ -55,3 +55,4 @@ sphinx:
   extra_extensions:
   - sphinx_design
   - sphinx.ext.intersphinx
+  - sphinx_new_tab_link
